@@ -25,7 +25,7 @@ mongoose
 		useUnifiedTopology: true
     })
     .then(() => console.log('DB Connected'))
-	.catch(err => console.log("ERROR!: ", err.message);
+	.catch(err => console.log("ERROR!: ", err.message));
 
 // middlewares
 app.use(morgan('dev'));
